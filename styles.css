@@ -1,0 +1,27 @@
+/* * {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: center;
+    background-color: green;
+}
+
+.logo {
+    margin-right: 15rem;
+}
+
+.navbar-others ul li {
+    display: inline-flex;
+}
+
+.second_container {
+    display: flex;
+} */
