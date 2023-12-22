@@ -2,31 +2,35 @@
     box-sizing: border-box;
 }
 
-body {
-    /* margin: 100px; */
-}
-
 .container {
     display: flex;
     flex-direction: column;
-    border: 3px solid purple;
+    border: 3px solid #F5F8FA;
 }
 
 .navbar {
     display: flex;
-    justify-content: space-around;
-    background-color: green;
+    width: 100%;
+    height: 70px;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #E0E6EA;
+    border-bottom: 1px solid #b4b8ba;
 }
 
-.logo img {
+.logo {
     margin-top: 8px;
-    margin-right: 17rem;
+    margin-right: auto;
     margin-left: 15px;
     size: 15px; 
 }
 
-.navbar-others ul li {
-    display: inline;
+.navbar-others ul {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    margin-right: 20px;
+    list-style: none;
 }
 
 .navbar a {
@@ -36,10 +40,10 @@ body {
 .second_container {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    /* border: 1px solid; */
+    border: 1px solid;
     box-shadow: red;
     border-radius: 5px;
-    /* align-self: center; */
+    align-self: center;
     margin: 60px;
     padding-left: 30px;
 }
@@ -55,7 +59,13 @@ body {
 .first_info {
     display: flex;
     gap: 15px;
-    /* background-color: red; */
+}
+
+.names label {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-right: 50px;
 }
 
 .first_info .number {
@@ -69,7 +79,6 @@ body {
 .number {
     padding-left: 5px;
     color: #548BC5;
-    /* padding-right: 5px; */
 }
 
 .first_info p {
@@ -92,10 +101,6 @@ body {
     height: 25px;
 }
 
-/* .names label {
-    font-weight: 20;
-} */
-
 .email input {
     margin-top: 8px;
     background-color: #EDEFF2;
@@ -111,7 +116,7 @@ body {
 }
 
  .second_container button {
-    margin-left: 15px;
+    margin-left: 70px;
     margin-right: 15px;
     margin-top: 15px;
     border: none;
@@ -125,13 +130,14 @@ body {
 .help {
     display: flex;
     flex-direction: column;
+    /* margin-right: 150px; */
     /* border: 2px solid red; */
 }
 
 .help p:first-child {
     font-size: 14px;
     font-weight: 400;
-    /* margin-left: 80px; */
+    margin-left: 80px;
     align-self: center;
 }
 
@@ -187,15 +193,9 @@ body {
         margin-top: 13px;
     }
 
-    .info p {
-        margin-bottom: 2px;
-    }
-
     .info {
         display: flex;
         flex-direction: column;
-        /* border: 2px solid red; */
-        /* flex-wrap: nowrap; */
     }
 
     sub {
@@ -203,7 +203,6 @@ body {
         font-weight: 700;
         font-size: 24px;
         margin-top: 10px;
-        /* margin-right: 10px */
     }
 
     .ninety-nine {
