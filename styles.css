@@ -33,7 +33,7 @@
     list-style: none;
 }
 
-
+cd ~
 .navbar a {
     text-decoration: none;
 }
@@ -131,6 +131,8 @@
 .help {
     display: flex;
     flex-direction: column;
+    margin-right: 220px;
+    justify-items: center;
     /* margin-right: 150px; */
 }
 
